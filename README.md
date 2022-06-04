@@ -15,7 +15,7 @@ npm install @caviajs/http-exception --save
 <h4>Usage</h4>
 </div>
 
-With default reason:
+Default reason:
 
 ```typescript
 import { HttpException } from '@caviajs/http-exception';
@@ -25,7 +25,7 @@ example.getResponse(); // { statusCode: 404, statusMessage: 'Not Found' }
 example.getStatus(); // 404
 ```
 
-With custom reason as string:
+Custom string reason:
 
 ```typescript
 import { HttpException } from '@caviajs/http-exception';
@@ -35,7 +35,7 @@ example.getResponse(); // { statusCode: 404, statusMessage: 'Guinea pig not foun
 example.getStatus(); // 404
 ```
 
-With custom reason as object:
+Custom object reason:
 
 ```typescript
 import { HttpException } from '@caviajs/http-exception';
