@@ -1,1 +1,1 @@
-export * from './lib/http-exception';
+export * from './http-exception';
