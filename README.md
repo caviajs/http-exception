@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This package includes an `HttpException` which is used by other packages to standardize error responses.
+This package includes an `HttpException` which is used to standardize error responses.
 
 ## Usage
 
