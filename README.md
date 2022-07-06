@@ -3,17 +3,19 @@
 <p>ecosystem for your guinea pig</p>
 </div>
 
-<div align="center">
-<h4>Installation</h4>
-</div>
+## Introduction
+
+This package includes an `HttpException` which is used by other packages to standardize error responses.
+
+## Usage
+
+### Installation
 
 ```shell
 npm install @caviajs/http-exception --save
 ```
 
-<div align="center">
-<h4>Usage</h4>
-</div>
+### Create an instance
 
 Default reason:
 
