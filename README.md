@@ -46,7 +46,3 @@ const example = new HttpException(404, { code: 'GUINEA_PIG_NOT_FOUND' });
 example.getResponse(); // { code: 'GUINEA_PIG_NOT_FOUND' }
 example.getStatus(); // 404
 ```
-
-<div align="center">
-  <sub>Built with ❤︎ by <a href="https://partyka.dev">Paweł Partyka</a></sub>
-</div>
