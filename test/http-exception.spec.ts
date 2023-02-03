@@ -1,4 +1,4 @@
-import { HttpException } from '../../src';
+import { HttpException } from '../src';
 
 describe('HttpException', () => {
   it('should return correct response for default reason', () => {
