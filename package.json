@@ -1,6 +1,6 @@
 {
   "name": "@caviajs/http-exception",
-  "description": "ecosystem for your guinea pig",
+  "description": "a micro framework for node.js",
   "version": "1.0.5",
   "author": "Paweł Partyka",
   "license": "MIT",
